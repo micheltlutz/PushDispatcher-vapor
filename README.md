@@ -68,5 +68,7 @@ Run in terminal `lsof -i :8080` this command shows the processes running on port
 }
 ```
 
+* If you have problem sending with bad request, try changing the .p8 permission to 664 using `chmod 664 <filename>.p8`
+
 
 > I hope it helps
